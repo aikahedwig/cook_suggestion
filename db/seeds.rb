@@ -7,23 +7,23 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 require "open-uri"
 
-# User.create!(
-#   [
-#     { email: "alice@example.com", password: "password", name: "Alice" },
-#     { email: "bob@example.com", password: "password", name: "Bob" },
-#     { email: "charlie@example.com", password: "password", name: "Charlie" },
-#     { email: "dave@example.com", password: "password", name: "Dave" },
-#     { email: "eve@example.com", password: "password", name: "Eve" }
-#   ]
-# )
+User.create!(
+  [
+    { email: "alice@example.com", password: "password", name: "Alice" },
+    { email: "bob@example.com", password: "password", name: "Bob" },
+    { email: "charlie@example.com", password: "password", name: "Charlie" },
+    { email: "dave@example.com", password: "password", name: "Dave" },
+    { email: "eve@example.com", password: "password", name: "Eve" }
+  ]
+)
 
-# User.create!(
-#   email: 'admin@gmail.com',
-#   password: 'adminadmin',
-#   password_confirmation: 'adminadmin',
-#   name: 'Admin User',
-#   admin: true
-# )
+User.create!(
+  email: 'admin@gmail.com',
+  password: 'adminadmin',
+  password_confirmation: 'adminadmin',
+  name: 'Admin User',
+  admin: true
+)
 
 # blog = Blog.create!(
 #   # [
