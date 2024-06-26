@@ -27,6 +27,7 @@ gem 'rexml'
 gem 'rails_admin'
 gem 'cancancan'
 gem 'aws-sdk-s3'
+gem 'dotenv-rails'
 
 
 
