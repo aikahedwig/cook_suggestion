@@ -5,6 +5,7 @@ class Blog < ApplicationRecord
     has_one_attached :image
 
     validates :title, :content, :user, :ingredients, :calories, presence: true
+    validates :title, length: {maximum: 20}
   
     def self.ransackable_attributes(auth_object = nil)
       %w(title content ingredients calories)
