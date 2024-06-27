@@ -14,8 +14,17 @@ ja:
       models:
         blog:
           attributes:
+            title:
+              blank: "を入力してください"
+            content:
+              blank: "を入力してください"
+            ingredients:
+              blank: "を入力してください"
+            calories:
+              blank: "を入力してください"
             user:
-              required: "ユーザーを入力してください"
+              required: "を入力してください"
   errors:
     messages:
       required: "を入力してください"
+      blank: "を入力してください"

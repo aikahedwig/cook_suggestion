@@ -4,7 +4,7 @@ class Blog < ApplicationRecord
     has_many :viewed_by_users, through: :histories, source: :user
     has_one_attached :image
 
-    validates :title, :content, :user, presence: true
+    validates :title, :content, :user, :ingredients, :calories, presence: true
   
     def self.ransackable_attributes(auth_object = nil)
       %w(title content ingredients calories)
